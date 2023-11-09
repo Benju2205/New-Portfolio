@@ -127,9 +127,9 @@ export const MobileMenu = styled.div`
   justify-content: center;
   gap: 16px;
   position: absolute;
-  top: 80;
+  top: 80px;
   right: 0;
-  width: 100%;
+  width:100%;
   padding: 12px 40px 24px 40px;
   background: ${({ theme }) => theme.card_light + 99};
   transition: all 0.3s ease-in-out;
@@ -209,6 +209,14 @@ const Navbar = () => {
             Skills
           </MobileMenuLinks>
           <MobileMenuLinks
+            href="#education"
+            onClick={() => {
+              setOpen(!open);
+            }}
+          >
+            Education
+          </MobileMenuLinks>
+          <MobileMenuLinks
             href="#experience"
             onClick={() => {
               setOpen(!open);
@@ -225,20 +233,12 @@ const Navbar = () => {
             Projects
           </MobileMenuLinks> */}
           <MobileMenuLinks
-            href="#education"
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
-            Education
-          </MobileMenuLinks>
-          <MobileMenuLinks
             href="#contact"
             onClick={() => {
               setOpen(!open);
             }}
           >
-            Contact me
+            Contact
           </MobileMenuLinks>
           <GithubButton
             style={{

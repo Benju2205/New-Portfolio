@@ -118,6 +118,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
 `
 
 
@@ -126,10 +127,13 @@ const Contact = () => {
 
   const [open, setOpen] = React.useState(false);
   const form = useRef();
+  const serviceID = 'service_wsbdhwp';
+  const templateID = 'template_cokpxob';
+  const publicKey = 'Ue5mGcSnVRPahdWly';
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -149,7 +153,7 @@ const Contact = () => {
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInput placeholder="Subject" name="from_subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>

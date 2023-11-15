@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# My Portfolio
+Welcome to my portfolio! This project showcases my skills and experiences as a web developer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Weblink: [Live Website](https://rishavchanda.netlify.app)
+## Some Images:
+<img width="450px;" src="https://github.com/Benju2205/New-Portfolio/assets/120126423/10481ef2-8ab0-48fd-9173-8a274153570a"/>
+<img width="450px;" src="https://github.com/Benju2205/New-Portfolio/assets/120126423/86e606b7-d3ee-4657-9956-185dbff195e1"/>
+<img width="450px;" src="https://github.com/Benju2205/New-Portfolio/assets/120126423/0414fbdd-7908-416e-bfa9-c8b52d177ab9"/>
+<img width="450px;" src="https://github.com/Benju2205/New-Portfolio/assets/120126423/a102f372-1130-48f9-8ed3-2faacb10a34f"/>
+<img width="450px;" src="https://github.com/Benju2205/New-Portfolio/assets/120126423/ddb9628b-cd5f-48fd-a3a8-fd0512fa61da"/>
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Introduction
+My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background  and offers a way to contact me.
 
-### `npm start`
+## Features
+- About Me: An overview of my background, skills, and experiences.
+- Projects: A collection of my notable projects with descriptions, screenshots, and links.
+- Skills: A list of my technical skills and proficiencies.
+- Resume: A link to download my resume.
+- Contact: A form to send me messages or inquiries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React.js: A JavaScript library for building user interfaces.
+- HTML5 & CSS3: Markup and styling languages for building web pages.
+- JavaScript: A programming language for adding interactivity to web applications.
+- Style-Components: A CSS framework for creating responsive and mobile-first designs.
+- Git: A version control system for tracking changes and collaborating on projects.
+- GitHub Pages: A platform for hosting and deploying web applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+To run this portfolio locally, follow these steps:
 
-### `npm test`
+1. Clone the repository: `git clone https://github.com/rishavchanda/rishav-chanda-portfolio.git`
+2. Navigate to the project directory: `cd rishav-chanda-portfolio`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+After installing and running the project locally, you can navigate through the different sections of the portfolio using the navigation menu. Explore the About Me section to learn more about my background and skills. Visit the Projects section to see detailed information about my projects, including descriptions and screenshots. Use the Contact section to send me a message or inquiry.
 
-### `npm run build`
+## Contributing
+Contributions are welcome! If you'd like to contribute to My Portfolio, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-feature`
+5. Open a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](LICENSE).
